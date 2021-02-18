@@ -1,0 +1,10 @@
+call FEM-Solver:
+    
+    python3 main.py inputFile outputPath
+        inputFile: path to a .json inputFile
+        outputPath: directory in which the outputfiles are written
+
+create inputfiles:
+
+    python3 create_input.py filePath
+        filePath: path where inputfile will be written to
